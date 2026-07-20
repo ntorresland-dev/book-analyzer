@@ -1,15 +1,8 @@
 import sys
-
+from file_management import get_text_content
 from stats import get_words_count
 
-def get_text_content(path: str) -> str:
-    try:
-        with open(path, encoding="utf-8") as file:
-            text_content = file.read()
-        return text_content
 
-    except FileNotFoundError:
-        return "Archivo no encontrado. Vuelve a intentarlo."
 
 def main():
     if len(sys.argv) < 2:
