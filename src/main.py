@@ -1,5 +1,6 @@
 import sys
 from file_management import get_text_content
+from text_manipulation import dict_to_sorted_list, get_letter_frequency
 from stats import get_character_count, get_words_count
 
 
@@ -22,6 +23,12 @@ def main():
     print("-------- Character Count --------")
     character_counted = get_character_count(text_content)
     print(f"Total characters: {character_counted}")
+
+    print("-------- Letter Frequency --------")
+    letter_frequency = get_letter_frequency(text_content)
+    ordered_frequency = dict_to_sorted_list(letter_frequency)
+    for i in ordered_frequency:
+        print(f"{i[0]}: {i[1]}")
 
 if __name__ == "__main__":
     main()
