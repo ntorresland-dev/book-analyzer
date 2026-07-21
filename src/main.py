@@ -7,7 +7,7 @@ from stats import get_character_count, get_words_count
 
 def main():
     if len(sys.argv) < 2:
-        print("Error: Se requiere al menos un argumento.")
+        print("Usage: python src/main.py <path_to_book>")
         sys.exit(1)
 
     path = sys.argv[1]
