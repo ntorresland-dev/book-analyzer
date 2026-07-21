@@ -1,6 +1,6 @@
 def get_letter_frequency(text: str) -> dict[str, int]:
     letter_frequency = {}
-    for letter in text:
+    for letter in text.lower():
         if letter.isalpha():
             letter_frequency[letter] = letter_frequency.get(letter, 0) + 1
 
