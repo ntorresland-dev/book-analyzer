@@ -17,7 +17,7 @@ This project generates a report from a `.txt` archive. It shows the total word c
 You can clone this repository from a Linux environment and run it using Python via the Command Line Interface (CLI):
 
 ```bash
-git clone <your-repository-url>
+git clone <https://github.com/ntorresland-dev/book-analyzer.git>
 cd book-analyzer
 ```
 ## Usage
@@ -28,12 +28,16 @@ python3 src/main.py books/frankenstein.txt
 
 ## Project Structure
 ```text
-book-analyzer
+.
+├── README.md
+├── requirements.txt
+├── books/
 ├── src
-│   ├── file_management.py
-│   ├── main.py
-│   ├── stats.py
-│   └── text_manipulation.py
+│   ├── file_management.py
+│   ├── main.py
+│   ├── stats.py
+│   └── text_manipulation.py
+└── tests
 ```
 
 ## What I Learned
