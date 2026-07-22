@@ -17,7 +17,7 @@ This project generates a report from a `.txt` archive. It shows the total word c
 You can clone this repository from a Linux environment and run it using Python via the Command Line Interface (CLI):
 
 ```bash
-git clone <https://github.com/ntorresland-dev/book-analyzer.git>
+git clone https://github.com/ntorresland-dev/book-analyzer.git
 cd book-analyzer
 ```
 ## Usage
