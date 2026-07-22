@@ -45,3 +45,4 @@ book-analyzer
 - Putting Python programming fundamentals into practice.
 - Organizing a project structure.
 - Applying the "divide and conquer" concept to solve problems.
+- Basic Linux command-line navigation to create, move, and edit files and directories.
