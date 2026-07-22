@@ -1,5 +1,5 @@
 import sys
-def get_text_content(path: str) -> str | None:
+def get_text_content(path: str) -> str:
     try:
         with open(path, encoding="utf-8") as file:
             text_content = file.read()
